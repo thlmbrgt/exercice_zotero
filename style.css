@@ -1,0 +1,137 @@
+/* CSS */
+
+
+/* média = ordinateur */
+@mediascreen(max-width: 1024px){
+	article {
+		width:100%;
+	}
+}
+
+/* main background */
+	body {
+		background-color: #f3f6f4;
+	}
+
+/* main title - website title */
+	header {
+		font-size: 45px;
+		color: #741b47;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: Roboto;
+	}
+
+/* footer avec Thelma et date */
+	footer {
+		text-align: center;
+		padding-bottom: 5px;
+	}
+
+/* presentation de bonnes ondes */
+	.aside1 {
+		background-color: #f6b26b;	
+		width: 40%;
+		height: 100%;
+		padding-right: 30px;
+		margin-right: 30px;
+		float: right;
+		padding-bottom: 5px;
+	}
+
+/* titres */
+	h2 {
+		font-size: 30px;
+		color: #666;
+		text-transform: uppercase;
+		margin-top: 90px;
+		margin-bottom: 10px;
+		margin-left: 40px;
+		padding-bottom: 5px;
+	}
+	
+	h3 {
+		font-size: 25px;
+		color: #333;
+		text-transform: uppercase;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-left: 20px;
+		border-bottom: 2px solid #ccc;
+		padding-bottom: 5px;
+	}
+	
+	h4 {
+		font-size: 1.2em;
+		color: #111;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		padding-bottom: 5px;
+	}
+
+/* classes */
+	.produit1 {
+		background-color:#ead1dc;
+		margin-left: 30px;
+		margin-right: 30px;
+		padding-bottom: 5px;
+	}
+	
+	.produit2 {
+		background-color:#f4cccc;
+		margin-left: 30px;
+		margin-right: 30px;
+		padding-bottom: 5px;
+	}
+	
+	.produit3 {
+		background-color:#cfe2f3;
+		margin-left: 30px;
+		margin-right: 30px;
+		padding-bottom: 5px;
+	}
+	
+	.produit4 {
+		background-color:#d0e0e3;
+		margin-left: 30px;
+		margin-right: 30px;
+		padding-bottom: 5px;
+	}
+	
+	.produit5 {
+		background-color:#d9ead3;
+		margin-left: 30px;
+		margin-right: 30px;
+		padding-bottom: 5px;
+	}	
+
+	.contact {
+		background-color: #ffe599;
+		margin-left: 30px;
+		margin-right: 30px;
+		padding-bottom: 2px;
+		padding-top: 2px;
+	}
+
+/* contenu general */
+	p {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 15px;
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+	article {
+		font-family: Helvetica, serif;
+		margin-bottom: 40px;
+		margin-left: 40px;
+		margin-right: 40px;
+	}	
+	
+	summary {
+		font-family: Helvetica, serif;
+		font-style: italic;
+	}
